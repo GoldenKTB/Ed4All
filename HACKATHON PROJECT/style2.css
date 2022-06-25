@@ -1,0 +1,17 @@
+h1, h2, h3, p3 {
+   text-align: center; 
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 30%;
+  }
+
+.left {
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 30%;
+}
