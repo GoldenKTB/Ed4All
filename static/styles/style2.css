@@ -15,3 +15,10 @@ h1, h2, h3, p3 {
     margin-right: auto;
     width: 30%;
 }
+
+.logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 10%;
+  }
