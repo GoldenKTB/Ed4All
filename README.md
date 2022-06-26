@@ -40,3 +40,8 @@ Ed4All, aimed towards **SDG 4 - Quality Education**, eradicates one of the main 
 **CREATORS**
 
 Aishwaryaa V.P. and Kim B
+
+**RUNNING IT LOCALLY**
+1. Clone this repository
+2. Download neccessary modules and packages from requirement.txt
+3. Run the app.py and head to localhost:5000
