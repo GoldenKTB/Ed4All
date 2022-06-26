@@ -4,13 +4,61 @@ h1, h3, h2, li {
 
 
 
-  .logo {
-    text-align: center;
-  }
-  .logo img {
-    width: 10%;
-    height: 20%;
-  }
+.logo {
+  text-align: center;
+}
 
-  img {
-    border-radius: 50%}
+.logo img {
+  width: 10%;
+  height: 20%;
+}
+
+img {
+  border-radius: 50%}
+
+.button1 {padding: 14px 40px;}
+.button2 {padding: 14px 40px;}
+.button3 {padding: 14px 40px;}
+.button4 {padding: 14px 40px;}
+
+
+
+.button1 {
+    border-color:black;
+}
+
+
+.button2 {
+    border-color: black;
+}
+
+.button3 {
+    border-color: black;
+}
+
+.button4 {
+    border-color: black;
+}
+
+a:link {
+    color: darkblue;
+    text-decoration:none;
+}
+
+a:visited {
+    color: rgb(92, 92, 237);
+}
+
+a:hover {
+    font-weight: bold;
+    color:red;
+}
+
+a:active {
+    font-style: bold;
+}
+
+.button1 {font-size: 16px;}
+.button2 {font-size: 16px;}
+.button3 {font-size: 16px;}
+.button4 {font-size: 16px;}

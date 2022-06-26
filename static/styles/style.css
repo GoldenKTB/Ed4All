@@ -6,13 +6,13 @@ h1, h2, h3, p2, p3 {
     text-align:center;
 }
 
-  .logo {
+.logo {
     text-align: center;
-  }
-  .logo img {
+}
+.logo img {
     width: 10%;
     height: 20%;
-  }
+}
 
   img {
     border-radius: 50%}

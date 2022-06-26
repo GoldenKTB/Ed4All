@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
+from translation import english, spanish, german, mandarin, finnish
 
 app = Flask(__name__)
 

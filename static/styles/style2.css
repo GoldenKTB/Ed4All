@@ -18,16 +18,17 @@ h1, h2, h3, p3 {
 
 .logo {
     text-align: center;
-  }
-  .logo img {
+}
+
+.logo img {
     width: 10%;
     height: 20%;
-  }
+}
 
-  img {
+img{
     border-radius: 50%}
 
-    .button1 {padding: 14px 40px;}
+.button1 {padding: 14px 40px;}
 .button2 {padding: 14px 40px;}
 .button3 {padding: 14px 40px;}
 .button4 {padding: 14px 40px;}
