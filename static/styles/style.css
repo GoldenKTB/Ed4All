@@ -1,5 +1,9 @@
-h1, h3, p2, p3 {
+h1, h2, h3, p2, p3 {
     text-align: center;
+}
+
+.meet the team {
+    text-align:center;
 }
 
   .logo {
@@ -23,21 +27,23 @@ h1, h2, h3, p3, p2 {
 .button3 {padding: 14px 40px;}
 .button4 {padding: 14px 40px;}
 
+
+
 .button1 {
-    border-color: red;
+    border-color:black;
 }
 
 
 .button2 {
-    border-color: orange;
+    border-color: black;
 }
 
 .button3 {
-    border-color: yellow;
+    border-color: black;
 }
 
 .button4 {
-    border-color: green;
+    border-color: black;
 }
 
 a:link {
@@ -62,3 +68,69 @@ a:active {
 .button2 {font-size: 16px;}
 .button3 {font-size: 16px;}
 .button4 {font-size: 16px;}
+
+
+nav {
+    margin-left: 200px; 
+  margin-right: 850px; 
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 0 7em 2em 0;
+  border-width: 2px;
+  border-color: bisque;
+  border-style:solid;
+
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 50%
+}
+
+.image {
+    flex-basis: 130%
+}
+
+.text {
+    font-size: 10px;
+    margin-right: 220px;
+    padding-right: 23px;
+    margin-left: 170px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 50%
+}
+
+.image2 {
+    flex-basis: 130%
+}
+
+.text2 {
+    font-size: 10px;
+    margin-right: 220px;
+    padding-right: 23px;
+    margin-left: 170px;
+}
+
+
+
+.text3 {
+    font-size: 10px;
+    margin-right: 220px;
+    padding-right: 23px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
