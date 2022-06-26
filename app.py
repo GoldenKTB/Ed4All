@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request, url_for, redirect
-
-## Basic local website.
+from flask import Flask, render_template, request
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
