@@ -1,98 +1,78 @@
-h1, h2, h3, p3 {
-   text-align: center; 
+h1, h3, h2, li {
+    text-align: center;
 }
 
-.right {
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-    width: 30%;
-  }
 
-.left {
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
-    width: 30%;
-}
 
 .logo {
+  text-align: center;
+}
+.logo img {
+  width: 20%;
+  height: 35%;
+}
+
+.logo img {
+  border-radius: 100%}
+
+
+  .topic2 {
+      color: blue;
+   }
+
+
+  div.container {
     text-align: center;
   }
-  .logo img {
-    width: 20%;
-    height: 35%;
-  }
-
-  .logo img {
-    border-radius: 100%
-  }
-
-
-    .button1 {padding: 14px 40px;}
-.button2 {padding: 14px 40px;}
-.button3 {padding: 14px 40px;}
-.button4 {padding: 14px 40px;}
-
-
-
-.button1 {
-    border-color:black;
-}
-
-
-.button2 {
-    border-color: black;
-}
-
-.button3 {
-    border-color: black;
-}
-
-.button4 {
-    border-color: black;
-}
-
-a:link {
-    color: darkblue;
-    text-decoration:none;
-}
-
-a:visited {
-    color: rgb(92, 92, 237);
-}
-
-a:hover {
-    font-weight: bold;
-    color:red;
-}
-
-a:active {
-    font-style: bold;
-}
-
-.button1 {font-size: 16px;}
-.button2 {font-size: 16px;}
-.button3 {font-size: 16px;}
-.button4 {font-size: 16px;}
-
-h3 {
-    font-size: 20px;
-    margin-right: 200px;
-    padding-right: 23px;
-    margin-left: 210px;
-}
-
   
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
 
- h4 {
-    text-align: center;
- }
-
- .text {
-    text-align: center;
- }
-
- .heading {
-    color: blue;
- }
+  .button1 {padding: 14px 40px;}
+  .button2 {padding: 14px 40px;}
+  .button3 {padding: 14px 40px;}
+  .button4 {padding: 14px 40px;}
+  
+  
+  
+  .button1 {
+      border-color:black;
+  }
+  
+  
+  .button2 {
+      border-color: black;
+  }
+  
+  .button3 {
+      border-color: black;
+  }
+  
+  .button4 {
+      border-color: black;
+  }
+  
+  a:link {
+      color: darkblue;
+      text-decoration:none;
+  }
+  
+  a:visited {
+      color: rgb(92, 92, 237);
+  }
+  
+  a:hover {
+      font-weight: bold;
+      color:red;
+  }
+  
+  a:active {
+      font-style: bold;
+  }
+  
+  .button1 {font-size: 16px;}
+  .button2 {font-size: 16px;}
+  .button3 {font-size: 16px;}
+  .button4 {font-size: 16px;}
