@@ -9,4 +9,8 @@ h1, h3, h2, li {
   }
   .logo img {
     width: 10%;
+    height: 20%;
   }
+
+  img {
+    border-radius: 50%}
