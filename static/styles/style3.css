@@ -2,19 +2,32 @@ h1, h3, h2, li {
     text-align: center;
 }
 
-
-
 .logo {
   text-align: center;
 }
 
 .logo img {
-  width: 10%;
-  height: 20%;
+  width: 20%;
+  height: 35%;
 }
 
-img {
-  border-radius: 50%}
+.logo img {
+  border-radius: 100%}
+
+
+.topic2 {
+    color: blue;
+ }
+
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 
 .button1 {padding: 14px 40px;}
 .button2 {padding: 14px 40px;}
