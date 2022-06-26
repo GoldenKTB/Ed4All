@@ -2,11 +2,10 @@ h1, h3, h2, li {
     text-align: center;
 }
 
-
-
 .logo {
   text-align: center;
 }
+
 .logo img {
   width: 20%;
   height: 35%;
@@ -16,63 +15,63 @@ h1, h3, h2, li {
   border-radius: 100%}
 
 
-  .topic2 {
-      color: blue;
-   }
+.topic2 {
+    color: blue;
+ }
 
 
-  div.container {
-    text-align: center;
-  }
-  
-  ul.myUL {
-    display: inline-block;
-    text-align: left;
-  }
+div.container {
+  text-align: center;
+}
 
-  .button1 {padding: 14px 40px;}
-  .button2 {padding: 14px 40px;}
-  .button3 {padding: 14px 40px;}
-  .button4 {padding: 14px 40px;}
-  
-  
-  
-  .button1 {
-      border-color:black;
-  }
-  
-  
-  .button2 {
-      border-color: black;
-  }
-  
-  .button3 {
-      border-color: black;
-  }
-  
-  .button4 {
-      border-color: black;
-  }
-  
-  a:link {
-      color: darkblue;
-      text-decoration:none;
-  }
-  
-  a:visited {
-      color: rgb(92, 92, 237);
-  }
-  
-  a:hover {
-      font-weight: bold;
-      color:red;
-  }
-  
-  a:active {
-      font-style: bold;
-  }
-  
-  .button1 {font-size: 16px;}
-  .button2 {font-size: 16px;}
-  .button3 {font-size: 16px;}
-  .button4 {font-size: 16px;}
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+.button1 {padding: 14px 40px;}
+.button2 {padding: 14px 40px;}
+.button3 {padding: 14px 40px;}
+.button4 {padding: 14px 40px;}
+
+
+
+.button1 {
+    border-color:black;
+}
+
+
+.button2 {
+    border-color: black;
+}
+
+.button3 {
+    border-color: black;
+}
+
+.button4 {
+    border-color: black;
+}
+
+a:link {
+    color: darkblue;
+    text-decoration:none;
+}
+
+a:visited {
+    color: rgb(92, 92, 237);
+}
+
+a:hover {
+    font-weight: bold;
+    color:red;
+}
+
+a:active {
+    font-style: bold;
+}
+
+.button1 {font-size: 16px;}
+.button2 {font-size: 16px;}
+.button3 {font-size: 16px;}
+.button4 {font-size: 16px;}

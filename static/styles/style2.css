@@ -18,18 +18,19 @@ h1, h2, h3, p3 {
 
 .logo {
     text-align: center;
-  }
-  .logo img {
-    width: 20%;
-    height: 35%;
-  }
+}
 
-  .logo img {
-    border-radius: 100%
-  }
+.logo img {
+  width: 20%;
+  height: 35%;
+}
+
+.logo img {
+  border-radius: 100%
+}
 
 
-    .button1 {padding: 14px 40px;}
+.button1 {padding: 14px 40px;}
 .button2 {padding: 14px 40px;}
 .button3 {padding: 14px 40px;}
 .button4 {padding: 14px 40px;}

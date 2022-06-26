@@ -6,16 +6,17 @@ h1, h2, h3, p2, p3 {
     text-align:center;
 }
 
-  .logo {
+.logo {
     text-align: center;
   }
-  .logo img {
-    width: 20%;
-    height: 35%;
-  }
 
-  .logo img {
-    border-radius: 100%}
+.logo img {
+  width: 20%;
+  height: 35%;
+}
+
+.logo img {
+  border-radius: 100%}
 
 h1, h2, h3, p3, p2 {
     color: black;

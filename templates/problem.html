@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ed4All</title>
-    <link href="style2.css" rel="stylesheet">
+    <link href="{{url_for('static',filename='styles/style2.css')}}" rel="stylesheet">
     <style>
       html {padding:32px; background-color:peachpuff;}
       body {margin:10px; background-color:rgb(180, 194, 207); padding:100px;}
@@ -15,7 +15,7 @@
   <body>
     <div class="logo">
       <img class="Image Image1"
-      src="images for project/Ed4All.png"
+       src="{{url_for('static',filename='photos/Ed4All.png')}}
       alt="The logo of our project - Ed4All"
       width="50px"
       height="50px">
@@ -27,12 +27,11 @@
     </header>
 
     <div style="text-align:center">
-
-      <button class="button button1"><a href="index.html" style="display:block;height:100%;width:100%">Home Page</a></button> 
-      <button class="button button2"><a href="problem.html" style="display:block;height:100%;width:100%">Problem</a></button> 
-      <button class="button button3"><a href="Goals of solution.html" style="display:block;height:100%;width:100%">Goals</a></button> 
-      <button class="button button4"><a href="prototype.html" style="display:block;height:100%;width:100%">Our Prototype</a></button> 
-     </div> <br>
+      <button class="button button1"><a href="{{url_for('home')}}" style="display:block;height:100%;width:100%">Home Page</a></button> 
+      <button class="button button2"><a href="{{url_for('problem')}}" style="display:block;height:100%;width:100%">Problem</a></button> 
+      <button class="button button3"><a href="{{url_for('solution')}}" style="display:block;height:100%;width:100%">Goals</a></button> 
+      <button class="button button4"><a href="{{url_for('prototype')}}" style="display:block;height:100%;width:100%">Our Prototype</a></button> 
+    </div> <br>
 
      <div class="heading">
     <h2><b><u>WHAT IS THE PROBLEM WE ARE SOLVING?</u></b></h2>
@@ -44,7 +43,7 @@
 
     <div class="resource">
       <p style="text-align:center;"><img 
-    src="images for project/Inadequate resources pic.jpg"
+    src="{{url_for('static',filename='photos/Inadequate resources pic.jpg')}}
     alt="A picture of Inedaquate resources to provide access to learning."
     width="200px"
     height="160px"
@@ -57,8 +56,6 @@
     </h3>
     </div>
   </div> <br>
-
-  
 
   </body>
   </html>

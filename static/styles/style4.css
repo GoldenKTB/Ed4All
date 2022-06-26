@@ -18,108 +18,110 @@ h1, h2, h3, p2, p3 {
 .logo {
     text-align: center;
   }
-  .logo img {
-    width: 10%;
-    height: 20%;
-  }
 
-  .logo img {
-    border-radius: 50%}
+.logo img {
+width: 10%;
+height: 20%;
+}
+
+.logo img {
+border-radius: 50%}
 
 
-  .button1 {padding: 14px 40px;}
-    .button2 {padding: 14px 40px;}
-    .button3 {padding: 14px 40px;}
-    .button4 {padding: 14px 40px;}
-    
-    
-    
-    .button1 {
-        border-color:black;
-    }
-    
-    
-    .button2 {
-        border-color: black;
-    }
-    
-    .button3 {
-        border-color: black;
-    }
-    
-    .button4 {
-        border-color: black;
-    }
-    
-    a:link {
-        color: darkblue;
-        text-decoration:none;
-    }
-    
-    a:visited {
-        color: rgb(92, 92, 237);
-    }
-    
-    a:hover {
-        font-weight: bold;
-        color:red;
-    }
-    
-    a:active {
-        font-style: bold;
-    }
-    
-    .button1 {font-size: 16px;}
-    .button2 {font-size: 16px;}
-    .button3 {font-size: 16px;}
-    .button4 {font-size: 16px;}
+.button1 {padding: 14px 40px;}
+.button2 {padding: 14px 40px;}
+.button3 {padding: 14px 40px;}
+.button4 {padding: 14px 40px;}
 
-  
-    label
-    {
-        margin: 4px 0px 2px 0px;
-        float: left;
-        width: 110px;
-    }
-    
-    input, select
-    {
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 10pt;
-        margin: 2px 0px 2px 0px;
-        padding-left: 5px;
-        height: 20px;
-        width: -webkit-calc(100% - 20px - 110px);
-        width: calc(100% - 20px - 110px);
-    }
-    
-    select
-    {
-        height: 24px;
-        width: -webkit-calc(100% - 11px - 110px);
-        width: calc(100% - 11px - 110px);
-    }
-    
-    .TwoColumns
-    {
-        -webkit-column-count: 2;
-        column-count: 2;
-        -webkit-column-gap: 0px;
-        column-gap: 0px;
-        min-width: 400px;
-    }
-    
-    .Column
-    {
-        -webkit-column-break-inside: avoid;
-        break-inside: avoid;
-    }
-    
-    .form1 {
-      height:500px; 
-      font-size:40pt;
-    }
 
-    .form-text{
-      padding:15px 0;
-  }
+
+.button1 {
+    border-color:black;
+}
+
+
+.button2 {
+    border-color: black;
+}
+
+.button3 {
+    border-color: black;
+}
+
+.button4 {
+    border-color: black;
+}
+
+a:link {
+    color: darkblue;
+    text-decoration:none;
+}
+
+a:visited {
+    color: rgb(92, 92, 237);
+}
+
+a:hover {
+    font-weight: bold;
+    color:red;
+}
+
+a:active {
+    font-style: bold;
+}
+
+.button1 {font-size: 16px;}
+.button2 {font-size: 16px;}
+.button3 {font-size: 16px;}
+.button4 {font-size: 16px;}
+
+
+label
+{
+    margin: 4px 0px 2px 0px;
+    float: left;
+    width: 110px;
+}
+
+input, select
+{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 10pt;
+    margin: 2px 0px 2px 0px;
+    padding-left: 5px;
+    height: 20px;
+    width: -webkit-calc(100% - 20px - 110px);
+    width: calc(100% - 20px - 110px);
+}
+
+select
+{
+    height: 24px;
+    width: -webkit-calc(100% - 11px - 110px);
+    width: calc(100% - 11px - 110px);
+}
+
+.TwoColumns
+{
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0px;
+    column-gap: 0px;
+    min-width: 400px;
+}
+
+.Column
+{
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.form1 {
+  height:500px; 
+  font-size:40pt;
+}
+
+.form-text{
+  padding:15px 0;
+}
+
