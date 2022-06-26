@@ -15,4 +15,8 @@
   }
   .logo img {
     width: 10%;
+    height: 20%;
   }
+
+  img {
+    border-radius: 50%}
