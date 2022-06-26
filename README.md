@@ -7,7 +7,7 @@
 
 **PROBLEM**
 
-Millions, countless of people, right from little tots to adults, do not receive the **Basic Education and Privilege** to build their own successful carer and gain knowledge on worldwide important events and cases. This has a huge negative impact on the person's mental and social well-being. At some point, due to lack of Education, people might start losing their ability to communicate. 
+Millions, countless of people, right from children to adults, are limited in their education due to language barriers.
 So how do we come in and help? 
 
 <img width="245" alt="image" src="https://user-images.githubusercontent.com/103300407/175829982-967e49fb-3d1e-45fd-84d3-da589822a6cb.png">
