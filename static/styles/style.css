@@ -10,12 +10,12 @@ h1, h2, h3, p2, p3 {
     text-align: center;
   }
   .logo img {
-    width: 10%;
-    height: 20%;
+    width: 20%;
+    height: 35%;
   }
 
-  img {
-    border-radius: 50%}
+  .logo img {
+    border-radius: 100%}
 
 h1, h2, h3, p3, p2 {
     color: black;
@@ -88,8 +88,8 @@ nav {
     justify-content: center;
 }
 
-img {
-    max-width: 50%
+.container img {
+    max-width: 60%
 }
 
 .image {
@@ -98,9 +98,9 @@ img {
 
 .text {
     font-size: 10px;
-    margin-right: 220px;
-    padding-right: 23px;
-    margin-left: 170px;
+    margin-right: 200px;
+    padding-right: 27px;
+    margin-left: 200px;
 }
 
 .container2 {
@@ -109,8 +109,8 @@ img {
     justify-content: center;
 }
 
-img {
-    max-width: 50%
+.container2 img {
+    max-width: 60%
 }
 
 .image2 {
@@ -119,9 +119,9 @@ img {
 
 .text2 {
     font-size: 10px;
-    margin-right: 220px;
-    padding-right: 23px;
-    margin-left: 170px;
+    margin-right: 200px;
+    padding-right: 27px;
+    margin-left: 200px;
 }
 
 
