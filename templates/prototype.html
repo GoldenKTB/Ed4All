@@ -35,63 +35,42 @@
      <br>
 
      <div style="text-align:center">
-
       <div class="form-control-1">
         <label for="Language" id="Languages">
-            Choose a language.
+            Start with:
         </label>
-      
-
         <div style="text-align:center"></div>
-        
-        <!-- Dropdown options -->
-        <select name="role" id="role">
-            <option value="English">English</option>
-            <option value="Spanish">Spanish</option>
-            <option value="Finnish">Finnish</option>
-            <option value="German">German</option>
-            <option value="Mandarin">Mandarin</option>
-        </select>
-    </div>
-
-    <div style="text-align:center">
-
-    <div class="form-control-2">
-        <label for="Translation" id="Translation">
-            Translation here. 
-        </label>
-      </div>
-      </div>
-    </div>
-    
-    <div style="text-align:center">
-        
-        <!-- Dropdown options -->
-        <select name="name" id="role">
-            <option value="English">English</option>
-            <option value="Spanish">Spanish</option>
-            <option value="Finnish">Finnish</option>
-            <option value="German">German</option>
-            <option value="Mandarin">Mandarin</option>
-        </select>
-    </div>
-    <br>
-    <br>
-
-    <div style="text-align:center">
       
-        <div style="text-align:center">
+      <form method="POST" action="{{ url_for('prototype') }}">
+        <select name="start" id="role">
+          {% for lang in data %}
+          <option value="{{ lang.languages }}">{{ lang.languages }}</option>
+          {% endfor %}
+        </select>
+
+        <label for="Language" id="Languages">
+          Translate to:
+        </label>
+
+        <select name="end" id="role">
+          {% for lang in data %}
+          <option value="{{ lang.languages }}">{{ lang.languages }}</option>
+          {% endfor %}
+        </select><br>
+        <br>
+        <br>
+        <label for="text_to_translate">Enter text here:</label>
+        <input type="text" name="text_to_translate" value="Enter text" size="40px" style="font-size:16pt; height: 100px;"><br>
+        <button type="submit">Translate</button><br><br>
+      </form>
+    </div>
+
 
     <form class="Form form1">
-        <label for="fname">Enter text here</label><br>
-        <input type="text" id="fname" name="fname" value="Enter text" size="40px" style="font-size:16pt; height: 100px;"><br>
-        <label for="lname">Translation here:</label><br>
-        <input type="text" id="lname" name="lname" value="Translation" size="40px" style="font-size:16pt; height: 100px;"><br>
+        <label for="translated_text">Translation here:</label>
+        <input type="text" name="translated_text" value="{{translation_text|join('')}}" size="40px" style="font-size:16pt; height: 100px;"><br>
       </form>
       </div>
-
-
-
 
   <br>
 
